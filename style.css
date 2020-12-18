@@ -1,6 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: bisque;
 }
 a{
     color: white;
@@ -16,23 +20,25 @@ a{
 }
 h1{
     margin: 1em 0;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 24, 24);
     text-align: center;
 }
 .ost{
     margin: 0 40px;
     background-color: rgb(27, 24, 24);
     color: rgba(255, 255, 255, 0.815);
-    font-family: Arial, Helvetica, sans-serif;
     padding: 30px 10px;
     text-align: center;
     width: 100px;
     border-radius: 10px;
 }
+.ost p{
+    margin: 0.2em 0;
+}
 .ost .name{
     font-weight: bold;
     color: white;
+    margin: 0.5em 0;
 }
 .osteliste{
     margin: 40px 0;
@@ -61,5 +67,12 @@ nav ul{
 }
 ul li a{
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+
+
+
+
+
+
